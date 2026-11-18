@@ -1,0 +1,16 @@
+services:
+  reinspection-api:
+    build: .
+    image: pcb-reinspection:1.0.0
+    container_name: pcb-reinspection-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Generated sample PNGs can be dropped here for manual /docs uploads.
+      - ./samples:/app/samples:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
