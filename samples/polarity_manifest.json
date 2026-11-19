@@ -1,0 +1,534 @@
+[
+  {
+    "name": "polarity_00_correct",
+    "component_box": [
+      174,
+      215,
+      48,
+      32
+    ],
+    "mark_box": [
+      176,
+      217,
+      7,
+      28
+    ],
+    "reversed_mount": false,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 0.9544078069500155,
+    "bias": -11.80641941015612,
+    "angle_deg": -2.1315751272520087,
+    "tx_px": 1.6779006930487759,
+    "ty_px": 1.6228225022451905,
+    "expect_status": "correct",
+    "expect_reason": null,
+    "true_warp": [
+      [
+        0.9993080480526593,
+        -0.03719442293118826,
+        11.357869474512931
+      ],
+      [
+        0.03719442293118826,
+        0.9993080480526593,
+        -7.703558834127854
+      ]
+    ]
+  },
+  {
+    "name": "polarity_01_reversed",
+    "component_box": [
+      259,
+      80,
+      48,
+      32
+    ],
+    "mark_box": [
+      261,
+      82,
+      7,
+      28
+    ],
+    "reversed_mount": true,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 1.1189599622460253,
+    "bias": -8.212309864887338,
+    "angle_deg": 1.3890616717714148,
+    "tx_px": 0.7389478980469386,
+    "ty_px": 0.22958535846265438,
+    "expect_status": "reversed",
+    "expect_reason": null,
+    "true_warp": [
+      [
+        0.9997061359065877,
+        0.02424132485486409,
+        -5.3796283265040055
+      ],
+      [
+        -0.02424132485486409,
+        0.9997061359065877,
+        6.49832613474726
+      ]
+    ]
+  },
+  {
+    "name": "polarity_02_correct_vertical",
+    "component_box": [
+      93,
+      418,
+      32,
+      48
+    ],
+    "mark_box": [
+      95,
+      420,
+      28,
+      7
+    ],
+    "reversed_mount": false,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 1.0520612041140636,
+    "bias": 1.1613330059055826,
+    "angle_deg": -1.530743321689663,
+    "tx_px": -0.45993098089652085,
+    "ty_px": -1.9080102871624256,
+    "expect_status": "correct",
+    "expect_reason": null,
+    "true_warp": [
+      [
+        0.9996431352483197,
+        -0.02671333283043315,
+        6.4565045013334625
+      ],
+      [
+        0.02671333283043315,
+        0.9996431352483197,
+        -8.642087881283782
+      ]
+    ]
+  },
+  {
+    "name": "polarity_03_reversed_vertical",
+    "component_box": [
+      386,
+      338,
+      32,
+      48
+    ],
+    "mark_box": [
+      388,
+      340,
+      28,
+      7
+    ],
+    "reversed_mount": true,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 1.117853993887724,
+    "bias": 10.160963509463787,
+    "angle_deg": 0.11833865326044402,
+    "tx_px": -2.8174144048246106,
+    "ty_px": 0.4324401549761374,
+    "expect_status": "reversed",
+    "expect_reason": null,
+    "true_warp": [
+      [
+        0.9999978670639714,
+        0.0020653976633157214,
+        -3.3445785426464765
+      ],
+      [
+        -0.0020653976633157214,
+        0.9999978670639714,
+        0.9606942231086053
+      ]
+    ]
+  },
+  {
+    "name": "polarity_04_correct_occl_mark",
+    "component_box": [
+      403,
+      103,
+      48,
+      32
+    ],
+    "mark_box": [
+      405,
+      105,
+      7,
+      28
+    ],
+    "reversed_mount": false,
+    "occlusion": "mark",
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 0.9348342534860141,
+    "bias": 9.567772332263331,
+    "angle_deg": -0.14343626262891096,
+    "tx_px": -0.6345022746076934,
+    "ty_px": 1.9111524575844712,
+    "expect_status": "undeterminable",
+    "expect_reason": "MARK_OCCLUDED",
+    "true_warp": [
+      [
+        0.9999968664081127,
+        -0.0025034324347146604,
+        0.0059253451891089215
+      ],
+      [
+        0.0025034324347146604,
+        0.9999968664081127,
+        1.272326103242082
+      ]
+    ]
+  },
+  {
+    "name": "polarity_05_reversed_occl_mark",
+    "component_box": [
+      324,
+      150,
+      48,
+      32
+    ],
+    "mark_box": [
+      326,
+      152,
+      7,
+      28
+    ],
+    "reversed_mount": true,
+    "occlusion": "mark",
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 1.0912533310886972,
+    "bias": 8.059030355612279,
+    "angle_deg": 2.1116330812731245,
+    "tx_px": -1.2254727168952395,
+    "ty_px": -0.08094080585870689,
+    "expect_status": "undeterminable",
+    "expect_reason": "MARK_OCCLUDED",
+    "true_warp": [
+      [
+        0.9993209332045313,
+        0.03684660716028824,
+        -10.466279280106633
+      ],
+      [
+        -0.03684660716028824,
+        0.9993209332045313,
+        9.50686888983719
+      ]
+    ]
+  },
+  {
+    "name": "polarity_06_correct_occl_opposite",
+    "component_box": [
+      102,
+      233,
+      48,
+      32
+    ],
+    "mark_box": [
+      104,
+      235,
+      7,
+      28
+    ],
+    "reversed_mount": false,
+    "occlusion": "opposite",
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 1.143974839655661,
+    "bias": 9.870034433969423,
+    "angle_deg": -0.2703622352307833,
+    "tx_px": -1.5062998859621082,
+    "ty_px": -1.8418321425123487,
+    "expect_status": "correct",
+    "expect_reason": null,
+    "true_warp": [
+      [
+        0.9999888669030679,
+        -0.004718693666525936,
+        -0.2978291478985733
+      ],
+      [
+        0.004718693666525936,
+        0.9999888669030679,
+        -3.0446138680435673
+      ]
+    ]
+  },
+  {
+    "name": "polarity_07_reversed_occl_opposite",
+    "component_box": [
+      100,
+      91,
+      48,
+      32
+    ],
+    "mark_box": [
+      102,
+      93,
+      7,
+      28
+    ],
+    "reversed_mount": true,
+    "occlusion": "opposite",
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 1.090233791405526,
+    "bias": -1.4023703675361077,
+    "angle_deg": -0.6230195329375658,
+    "tx_px": -0.28965644855676853,
+    "ty_px": -2.5765879662382023,
+    "expect_status": "undeterminable",
+    "expect_reason": "MARK_OCCLUDED",
+    "true_warp": [
+      [
+        0.9999408814482939,
+        -0.010873527873190654,
+        2.503634713004365
+      ],
+      [
+        0.010873527873190654,
+        0.9999408814482939,
+        -5.339669547877493
+      ]
+    ]
+  },
+  {
+    "name": "polarity_08_correct_occl_opposite",
+    "component_box": [
+      206,
+      407,
+      48,
+      32
+    ],
+    "mark_box": [
+      208,
+      409,
+      7,
+      28
+    ],
+    "reversed_mount": false,
+    "occlusion": "opposite",
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 0.9018015803835017,
+    "bias": 0.303084689785031,
+    "angle_deg": -2.411986732117422,
+    "tx_px": 0.22489621874086296,
+    "ty_px": -0.2957811774561572,
+    "expect_status": "undeterminable",
+    "expect_reason": "AMBIGUOUS_EVIDENCE",
+    "true_warp": [
+      [
+        0.9991140475148,
+        -0.042084677242362596,
+        11.203892114133097
+      ],
+      [
+        0.042084677242362596,
+        0.9991140475148,
+        -10.82205535291121
+      ]
+    ]
+  },
+  {
+    "name": "polarity_09_correct_competing",
+    "component_box": [
+      53,
+      250,
+      48,
+      32
+    ],
+    "mark_box": [
+      55,
+      252,
+      7,
+      28
+    ],
+    "reversed_mount": false,
+    "occlusion": null,
+    "competing_evidence": true,
+    "mark_contrast": 36,
+    "gain": 0.9055145649968435,
+    "bias": -4.42671746006498,
+    "angle_deg": 1.2441650909899287,
+    "tx_px": 2.121258761273232,
+    "ty_px": 0.5548921220611911,
+    "expect_status": "undeterminable",
+    "expect_reason": "AMBIGUOUS_EVIDENCE",
+    "true_warp": [
+      [
+        0.9997642434880282,
+        0.021713070782610585,
+        -3.36619503487497
+      ],
+      [
+        -0.021713070782610585,
+        0.9997642434880282,
+        6.162817495826999
+      ]
+    ]
+  },
+  {
+    "name": "polarity_10_correct",
+    "component_box": [
+      93,
+      181,
+      36,
+      26
+    ],
+    "mark_box": [
+      95,
+      183,
+      5,
+      22
+    ],
+    "reversed_mount": false,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 0.9990382374007865,
+    "bias": 7.037541167846221,
+    "angle_deg": -1.3581932606549008,
+    "tx_px": 1.8158118368718972,
+    "ty_px": 2.001006158064552,
+    "expect_status": "correct",
+    "expect_reason": null,
+    "true_warp": [
+      [
+        0.9997190509647954,
+        -0.023702724274835028,
+        7.94364036758702
+      ],
+      [
+        0.023702724274835028,
+        0.9997190509647954,
+        -3.983257415661024
+      ]
+    ]
+  },
+  {
+    "name": "polarity_11_reversed",
+    "component_box": [
+      399,
+      104,
+      58,
+      40
+    ],
+    "mark_box": [
+      401,
+      106,
+      8,
+      36
+    ],
+    "reversed_mount": true,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 1.036890682823916,
+    "bias": -8.879499324224227,
+    "angle_deg": -0.30018227443919976,
+    "tx_px": 0.8531644603056341,
+    "ty_px": 1.4631107234623197,
+    "expect_status": "reversed",
+    "expect_reason": null,
+    "true_warp": [
+      [
+        0.9999862755852519,
+        -0.005239145076891018,
+        2.195272615419433
+      ],
+      [
+        0.005239145076891018,
+        0.9999862755852519,
+        0.12801574428480866
+      ]
+    ]
+  },
+  {
+    "name": "polarity_12_correct",
+    "component_box": [
+      128,
+      404,
+      48,
+      32
+    ],
+    "mark_box": [
+      130,
+      406,
+      7,
+      28
+    ],
+    "reversed_mount": false,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 36,
+    "gain": 0.926193413666713,
+    "bias": -7.119232726464034,
+    "angle_deg": -0.48752776448713453,
+    "tx_px": -0.8652792736528081,
+    "ty_px": -1.7945192674915311,
+    "expect_status": "undeterminable",
+    "expect_reason": "LOCAL_DISPLACEMENT_TOO_LARGE",
+    "true_warp": [
+      [
+        0.9999637989784143,
+        -0.008508862007202097,
+        1.3179843302024858
+      ],
+      [
+        0.008508862007202097,
+        0.9999637989784143,
+        -3.9592841493165087
+      ]
+    ]
+  },
+  {
+    "name": "polarity_13_correct_contrast140",
+    "component_box": [
+      233,
+      256,
+      48,
+      32
+    ],
+    "mark_box": [
+      235,
+      258,
+      7,
+      28
+    ],
+    "reversed_mount": false,
+    "occlusion": null,
+    "competing_evidence": false,
+    "mark_contrast": 140,
+    "gain": 0.994524253882898,
+    "bias": 9.904612991195464,
+    "angle_deg": 0.4725415404818598,
+    "tx_px": -0.5083348116697373,
+    "ty_px": 0.2852527031494452,
+    "expect_status": "undeterminable",
+    "expect_reason": "MARK_CONTRAST_INSUFFICIENT",
+    "true_warp": [
+      [
+        0.9999659903421084,
+        0.00824731223649337,
+        -2.6068336205024956
+      ],
+      [
+        -0.00824731223649337,
+        0.9999659903421084,
+        2.4011304471647987
+      ]
+    ]
+  }
+]
